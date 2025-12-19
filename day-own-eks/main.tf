@@ -181,3 +181,4 @@ resource "aws_eks_node_group" "manisha_node_group" {
     source_security_group_ids = [aws_security_group.manisha_node_sg.id]
   }
 }
+# own eks and aws resourses with terraform #
